@@ -5,12 +5,15 @@ def join_nested_strings(src)
   count = 0
   alpha = "abcdefghijklmnopqrstuvwxyz"
   
-  while count < src.length
-    if src[count].include?(alpha)
-      count =+ 1
+  src.each do |ele|
+    ele.each do |ele2|
+      if ele2 % 2 != 0 && ele2 % 2 != 1
+        final << ele2
+        
+      end
+      
       
     end
-    
     
     
   end
