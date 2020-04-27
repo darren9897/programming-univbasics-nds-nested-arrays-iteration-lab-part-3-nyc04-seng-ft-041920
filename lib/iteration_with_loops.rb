@@ -4,7 +4,7 @@ def join_nested_strings(src)
   final = []
   count = 0
   
-  while do
+  while count < src.length
     if src[count].include?(string)
       final << string
       count =+ 1
