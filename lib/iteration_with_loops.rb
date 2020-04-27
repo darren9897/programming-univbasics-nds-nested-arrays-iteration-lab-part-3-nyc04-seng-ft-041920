@@ -3,7 +3,6 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   final = []
   count = 0
-  alpha = "abcdefghijklmnopqrstuvwxyz"
   
   src.each do |ele|
     ele.each do |ele2|
